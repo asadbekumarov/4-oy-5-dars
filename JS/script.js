@@ -61,9 +61,13 @@ elBtn4.addEventListener("click", function () {
   const value = 4;
   if (Number(elInput.value) < 10) {
     elInput.value = elInput.value + value;
-    console.log("clicked");
+
     elP.className = "border";
     elInput.className = "border__input";
+  }
+  if (Number(elInput.value) >= 10) {
+    elA.className = "border2";
+    elP.className = "border0";
   }
 });
 elBtn5.addEventListener("click", function () {
@@ -73,6 +77,10 @@ elBtn5.addEventListener("click", function () {
 
     elP.className = "border";
     elInput.className = "border__input";
+  }
+  if (Number(elInput.value) >= 10) {
+    elA.className = "border2";
+    elP.className = "border0";
   }
 });
 elBtn6.addEventListener("click", function () {
@@ -92,9 +100,13 @@ elBtn7.addEventListener("click", function () {
   const value = 7;
   if (Number(elInput.value) < 10) {
     elInput.value = elInput.value + value;
-
+    console.log("clicked");
     elP.className = "border";
     elInput.className = "border__input";
+  }
+  if (Number(elInput.value) >= 10) {
+    elA.className = "border2";
+    elP.className = "border0";
   }
 });
 elBtn8.addEventListener("click", function () {
@@ -104,6 +116,10 @@ elBtn8.addEventListener("click", function () {
     console.log("clicked");
     elP.className = "border";
     elInput.className = "border__input";
+  }
+  if (Number(elInput.value) >= 10) {
+    elA.className = "border2";
+    elP.className = "border0";
   }
 });
 elBtn9.addEventListener("click", function () {

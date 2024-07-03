@@ -142,9 +142,11 @@ input {
 }
 
 .dark  {
-  background: black;
+  background: #313131;
 }
-
+.border0{
+  border: 0;
+}
 .dark  * {
   color: white !important;
   #light-dark{
